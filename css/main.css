@@ -1,0 +1,175 @@
+html,body{
+    height:100%
+}
+*{
+   margin: 0; 
+}
+.topnav{
+    background-color: red;
+    overflow: hidden;
+    padding: 14px;
+}
+a,li{
+    list-style: none;
+    display: inline;
+    color: #f2f2f2;
+    text-align:center;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+.topnav a{
+    padding: 14px;
+}
+
+
+.topnav a:hover{
+    background-color: yellow;
+    color: #000000;
+
+}
+div.hero-image{
+    background-image:url(https://lh3.googleusercontent.com/mF2NoC5ezBibLlUtJabsq5dDUfdI8DK5FfhR76GEMaYymVKUIlGRCB2gSK9RcAGHBWrnLTVmfKEqx6JoBnjj=s480-c);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+div.hero-txt{
+    text-align: center;
+    padding-top: 20vh;
+    color:green;
+}
+    span{
+        color: yellow;
+    }
+
+div.hero-image{
+    font-size: 2.5em;
+}
+div.hero-txt a button{
+    color: white;
+    background: red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.description{
+    max-width: 80vh;
+    text-align: center;
+    margin: auto;
+}
+.description h2{
+    font-size: 2rem;
+    text-transform:capitalize;
+    margin-top: 20px;
+    color: yellowgreen;
+}
+.description p i{
+    color:red ;
+    font-size: 1.5rem;
+    padding-bottom: 30px;
+}
+.description p{
+    line-height: 1.5rem;
+
+}
+.row{
+    display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin-left: 30px;
+    }
+    .column img{
+        width:500px;
+        height: auto;
+    }
+    .meal{
+        text-align: center;
+    }
+    #foot{
+        text-align: center;
+        color: white;
+        background-color: red;
+        }
+
+/*styling the menu page*/
+.container img{
+    width: 200px;
+    height:200px;
+    margin: 5px;
+    border-radius:2px;
+    transition:all 5s;
+}
+
+.container img:hover{
+    transform: scale(1.1);
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grow {
+flex-grow: 2px;
+}
+
+#foot{
+text-align: center;
+color: white;
+background-color: red;
+}
+
+/*styling the about-us page*/
+.aboutimg {
+    text-align: center;
+}
+
+.about-txt h1{
+ font-size: 2rem;
+ text-transform:capitalize;
+ margin-top: 20px;
+ color: yellowgreen;
+ text-align:center;
+ 
+}
+.about-txt p{
+ color:black ;
+ font-size: 1rem;
+ padding-bottom: 30px;
+
+}
+.about-txt p{
+ line-height: 2rem;
+}
+.body-{
+    background-color: tomato;
+}
+
+/*styling the price*/
+.body{
+    background-color: slategray;
+}
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+        width:35%;
+        height: 80vh;
+    }
+
+/*media querry*/
+@media screen and (max-width:500px){
+    .row{
+        display: grid;
+         grid-template-columns:1fr;
+         text-align:center;
+    }
+}
+
+/* Styling for Contact Us */
+.img{
+    background-color: slategray;
+    margin-top: 2.2vh;
+    border:none ;
+    
+}
