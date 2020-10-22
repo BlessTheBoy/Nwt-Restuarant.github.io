@@ -7,19 +7,41 @@
     <title>prices</title>
     <link rel="stylesheet" href="./css/main.css">
     
+    <link rel="stylesheet" href="dist/css/nav.css">
+    
 </head>
 
 <body class="body">
     <!--begining of navigation-->
-    <nav class="topnav">
-        <ul>
-            <li><a href="index.html">home</a></li>
-            <li><a href="about-us.html" rel="noopener noreferrer">about us</a></li>
-            <li><a href="menu.html" rel="noopener noreferrer">menu</a></li>
-            <li><a href="price.html" rel="noopener noreferrer">prices</a></li>
-            <li><a href="contact.html" rel="noopener noreferrer">contact us</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar">
+        <div class="container">
+      
+          <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a href="index.html">
+              <h4>NWT</h4>
+            </a>
+          </div>
+      
+          <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li class="navbar-dropdown">
+                <a href="about-us.html" class="dropdown-toggler" data-dropdown="blog">
+                  About Us
+                </a>
+              </li>
+              <li><a href="menu.html">Menu</a></li>
+              <li><a href="price.html">Prices</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <!--end of navigation-->
     <br>
     <!--table tag-->
